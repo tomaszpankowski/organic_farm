@@ -569,55 +569,60 @@ body, html {
 }
 
 /* line 8, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-position-x: 30% !important;
+}
+
+/* line 13, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #333;
 }
 
-/* line 12, ../sass/partials/_modules.scss */
+/* line 17, ../sass/partials/_modules.scss */
 nav {
   z-index: 10;
 }
 
-/* line 15, ../sass/partials/_modules.scss */
+/* line 20, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 21, ../sass/partials/_modules.scss */
+  /* line 26, ../sass/partials/_modules.scss */
   .contact-s1, .contact-s2, .workshop-s1, .workshop-s2 {
     background-color: #999 !important;
     background-blend-mode: multiply !important;
     text-shadow: 1px 1px 3px #333;
   }
-  /* line 22, ../sass/partials/_modules.scss */
+  /* line 27, ../sass/partials/_modules.scss */
   .contact-s1 *, .contact-s2 *, .workshop-s1 *, .workshop-s2 * {
     color: #fff !important;
   }
 
-  /* line 31, ../sass/partials/_modules.scss */
+  /* line 36, ../sass/partials/_modules.scss */
   .index-s1 {
     background-color: #999 !important;
     background-blend-mode: multiply !important;
     text-shadow: 1px 1px 3px #333;
   }
-  /* line 32, ../sass/partials/_modules.scss */
+  /* line 37, ../sass/partials/_modules.scss */
   .index-s1 * {
     color: #fff !important;
   }
-  /* line 39, ../sass/partials/_modules.scss */
+  /* line 44, ../sass/partials/_modules.scss */
   .index-s5 {
     background-position: right !important;
   }
 
-  /* line 44, ../sass/partials/_modules.scss */
+  /* line 49, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #999 !important;
     border: 1px solid #666 !important;
     color: #333 !important;
     padding: 10px;
   }
-  /* line 45, ../sass/partials/_modules.scss */
+  /* line 50, ../sass/partials/_modules.scss */
   .navbar-nav *:hover {
     opacity: 0.8;
   }
